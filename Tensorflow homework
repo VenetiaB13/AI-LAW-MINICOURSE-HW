@@ -1,0 +1,17 @@
+Step 1:
+
+	The code seems like it is meant to enable downloading of the data needed to run the program. It has the website to get the data from and the file name of the data to download.  The code also instructs a reading of the data by the program after its extracted the zip file.
+	The format of the data seems to be a file that contains all the relevant data to use. It also shows how big the file that was extracted is.
+Step 2:
+	This code actually reads the data extracted from the first code. The word to count is “UNK” and words that show up before it. This seems to come from the code language “count = [['UNK', -1]]” or “print('Most common words (+UNK)', count[:5]).” The code states how big the file is so the code knows its limits. The code is going through the zip file that was previously downloaded and looking for the word “UNK.” The code looks for the most common/often words to appear before “UNK.” 
+Step 3:
+	The code in this step generates batches sample batches of word skips, that will eventually become the finished program.
+Step 4:
+	This code is meant to start the skip-gram program. The program tells the program how to act, like batch size, renumber of skips, numbers sampled, and embedding size. The code starts with the directions for the program and then inputs the data into the program that was just created and runs a test on the program. 
+	No data showed up for me after this step.
+Step 5:
+	This code is the actual program. The code is looking at batches of word around select words like “have”, “about”, “two”, “no”, etc. The code starts off with large batches, looking at these selected words and words that often appear next to them. This code continues for each word and more sets of words that appear near it. The code also shows the average loss of words at each step of the process. This process continued until step 100,001, starting at 2000 and taking 2000 increases each step. 
+	The information is presented as a list of the data, then the loss suffered then the next list. 
+Step 6:
+	This step is to create a visualization of the data collected/formed in step 5. A graph is supposed to be formed tracking this data. The code also seems to have an input step for the graph, probably to a system that is formatted to be able to show it.
+	Nothing happened for me when I input this data.
